@@ -28,5 +28,5 @@ jobs:
       - name: setup surge
         run: npm install --global surge
       - name: Execute deployment with surge
-        run: surge ./ project001.surge.sh  --token ${{secrets.SURGE_TOKEN_SECRET}}
+        run: surge ./project001.surge.sh  --token ${{secrets.SURGE_TOKEN_SECRET}}
           
